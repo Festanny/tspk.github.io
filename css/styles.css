@@ -4026,7 +4026,7 @@ progress::-moz-progress-bar {
 .slick-prev:before,
 .slick-next:before {
     font-family: "slick";
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1;
     opacity: .75;
     color: red;
@@ -4875,4 +4875,97 @@ button:focus {
 }
 .fast5::before {
     background-image: url('../images/reception.png');
+}
+
+.news-main {
+    margin-top: 30px;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  /* opacity: .2; */
+}
+
+/* .slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+} */
+
+.news-block {
+    width: 282px;
+    height: 299px;
+}
+
+.news-block {
+    width: 280px;
+    background: #fff;
+    border: 1px solid #EBEBEB;
+    border-radius: 6px;
+}
+
+.news-block .img {
+    position: relative;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.news-block .img::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #FFFFFF 0%, rgba(250, 250, 250, 0.1) 48.37%);
+    transition: all .3s ease-in-out;
+}
+
+.news-block .img img {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.news-block .text {
+    padding: 16px;
+    max-height: 127px;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.news-block .text h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.news-block .text span {
+    display: block;
+    margin-top: 7px;
+}
+
+.news-block:hover .text {
+    padding: 0 16px;
+    max-height: 0px;
+}
+
+.news-block:hover .img::before {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.news-block:hover .img img {
+    border-radius: 6px;
 }

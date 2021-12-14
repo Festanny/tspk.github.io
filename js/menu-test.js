@@ -42,13 +42,6 @@ $(".sidebar-dropdown1 > a").click(function() {
   }
 });
 
-
-
-
-
-
-
-
 $("#close-sidebar").click(function() {
   $(".page-wrapper").removeClass("toggled");
 });
