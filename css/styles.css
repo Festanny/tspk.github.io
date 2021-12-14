@@ -801,7 +801,7 @@ header {
     width: 3rem;
     height: 3rem;
     background: #517088;
-    border-radius: 6px 6px 0 6px;
+    border-radius: 6px;
 }
 
 .learn-more .circle .icon {
@@ -4799,7 +4799,6 @@ button:focus {
 }
 .fast-block:hover {
     transform: scale(1.01);
-    /* border-radius: 6px; */
 }
 .fast-block .span-block {
     position: absolute;
