@@ -851,7 +851,7 @@ header {
     text-transform: uppercase;
     border-bottom: 3px solid#517088;
     border-right: 3px solid#517088;
-    border-radius: 0 3px 10px;
+    /* border-radius: 0 3px 10px; */
     transform: translate(-4px);
     transition: .3s;
     z-index: 1
@@ -4773,12 +4773,13 @@ button:focus {
     grid-auto-rows: 50px;
 }
 .fast-block {
-    border: 1px solid #E1E3E6;
+    /* border: 1px solid #E1E3E6; */
     border-radius: 6px;
     margin: 10px;
     position: relative;
     overflow: hidden;
     color: var(--font-color-fast);
+    box-shadow: 0 0 3px #b9b9b9;
 }
 
 .fast-block h2 {
@@ -4795,6 +4796,7 @@ button:focus {
 }
 .fast-block:hover::after {
     background: rgba(255, 255, 255, 0.8);
+    transform: scale(1.03);
 }
 .fast-block .span-block {
     position: absolute;
@@ -4836,6 +4838,7 @@ button:focus {
 }
 .fast-block:hover::before {
     transform: scale(1.03);
+    border-radius: 6px;
 }
 
 .fast1,
