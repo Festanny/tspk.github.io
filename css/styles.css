@@ -4896,16 +4896,7 @@ button:focus {
 
 .slick-slide {
   transition: all ease-in-out .3s;
-  /* opacity: .2; */
 }
-
-/* .slick-active {
-  opacity: .5;
-}
-
-.slick-current {
-  opacity: 1;
-} */
 
 .news-block {
     width: 282px;
@@ -4928,12 +4919,14 @@ button:focus {
     transition: all .3s ease-in-out;
     font-size: 18px;
     padding: 16px;
-    z-index: 1;
+    z-index: 2;
     color: var(--font-color-fast);
+    transform: translateY(170px);
 }
 
 .news-block:hover .img .text-hover {
     opacity: 1;
+    transform: translateY(0px);
 }
 
 .news-block .img {
@@ -4941,6 +4934,7 @@ button:focus {
     width: 100%;
     border-radius: 6px 6px 0 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 .news-block .img::before {
@@ -4960,13 +4954,14 @@ button:focus {
 
 .news-block .text {
     padding: 16px;
-    max-height: 127px;
+    /* max-height: 127px; */
     overflow: hidden;
     transition: all .3s ease-in-out;
     border-right: 1px solid #EBEBEB;
     border-left: 1px solid #EBEBEB;
     border-bottom: 1px solid #EBEBEB;
     border-radius: 0 0 6px 6px;
+    transform: translateY(0px);
 }
 
 .news-block .text h2 {
@@ -4981,8 +4976,9 @@ button:focus {
 
 .news-block:hover .text {
     padding: 0 16px;
-    max-height: 0px;
+    /* max-height: 0px; */
     border: 1px solid transparent;
+    transform: translateY(-130px);
 }
 
 .news-block:hover .img::before {
