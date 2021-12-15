@@ -4909,20 +4909,38 @@ button:focus {
 
 .news-block {
     width: 282px;
-    height: 299px;
+    background: #fff;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+    height: 301px!important;
 }
 
-.news-block {
-    width: 280px;
-    background: #fff;
-    border: 1px solid #EBEBEB;
-    border-radius: 6px;
+.news-block .img .text-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    font-size: 18px;
+    padding: 16px;
+    z-index: 1;
+    color: var(--font-color-fast);
+}
+
+.news-block:hover .img .text-hover {
+    opacity: 1;
 }
 
 .news-block .img {
     position: relative;
     width: 100%;
     border-radius: 6px 6px 0 0;
+    overflow: hidden;
 }
 
 .news-block .img::before {
@@ -4945,6 +4963,10 @@ button:focus {
     max-height: 127px;
     overflow: hidden;
     transition: all .3s ease-in-out;
+    border-right: 1px solid #EBEBEB;
+    border-left: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    border-radius: 0 0 6px 6px;
 }
 
 .news-block .text h2 {
@@ -4960,10 +4982,12 @@ button:focus {
 .news-block:hover .text {
     padding: 0 16px;
     max-height: 0px;
+    border: 1px solid transparent;
 }
 
 .news-block:hover .img::before {
     background: rgba(255, 255, 255, 0.6);
+    border-radius: 6px;
 }
 
 .news-block:hover .img img {
