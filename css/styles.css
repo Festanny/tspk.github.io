@@ -71,7 +71,7 @@ body {
 
 .theme-switch {
     display: inline-block;
-    height: 44px;
+    height: 40px;
     position: relative;
     width: 88px;
     /* background-image: url('../images/wb_sunny.png');
@@ -101,13 +101,13 @@ body {
 
 .slider:before {
     background-color: #ffffff;
-    bottom: 3px;
+    bottom: 5px;
     content: "";
-    height: 38px;
-    left: 4px;
+    width: 30px;
+    height: 30px;
+    left: 7px;
     position: absolute;
     transition: .4s;
-    width: 38px;
     background-size: 70%;
     background-position: center;
 }
@@ -116,12 +116,12 @@ input:checked+.slider {
     /* border: 2px solid#fff */
     background-image: url('../images/moon.svg');
     background-repeat: no-repeat;
-    background-size: 27%;
+    background-size: 23%;
     background-position: 5px center;
 }
 
 input:checked+.slider:before {
-    transform: translateX(41px);
+    transform: translateX(45px);
     background-color: #fff;
     /* background-image: url('../images/wb_sunny.png');
     background-repeat: no-repeat;
@@ -4278,8 +4278,8 @@ button:focus {
     background: #366294;
     border-radius: 50%;
     color: #fff;
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     overflow: hidden;
     display: flex;
     align-items: center;
