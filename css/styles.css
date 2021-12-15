@@ -4954,7 +4954,6 @@ button:focus {
 
 .news-block .text {
     padding: 16px;
-    /* max-height: 127px; */
     overflow: hidden;
     transition: all .3s ease-in-out;
     border-right: 1px solid #EBEBEB;
@@ -4975,8 +4974,6 @@ button:focus {
 }
 
 .news-block:hover .text {
-    padding: 0 16px;
-    /* max-height: 0px; */
     border: 1px solid transparent;
     transform: translateY(-130px);
 }
