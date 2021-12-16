@@ -76,13 +76,9 @@ body {
 
 .theme-switch {
     display: inline-block;
-    height: 40px;
+    height: 34px;
     position: relative;
-    width: 88px;
-    /* background-image: url('../images/wb_sunny.png');
-    background-repeat: no-repeat;
-    background-size: 35%;
-    background-position: 47px center; */
+    width: 62px;
 }
 
 .theme-switch input {
@@ -100,17 +96,17 @@ body {
     transition: .4s;
     background-image: url('../images/sunny.svg');
     background-repeat: no-repeat;
-    background-size: 35%;
-    background-position: 52px center;
+    background-size: 22px;
+    background-position: 35px center;
 }
 
 .slider:before {
     background-color: #ffffff;
-    bottom: 5px;
+    bottom: 4px;
     content: "";
-    width: 30px;
-    height: 30px;
-    left: 7px;
+    width: 26px;
+    height: 26px;
+    left: 5px;
     position: absolute;
     transition: .4s;
     background-size: 70%;
@@ -121,12 +117,12 @@ input:checked+.slider {
     /* border: 2px solid#fff */
     background-image: url('../images/moon.svg');
     background-repeat: no-repeat;
-    background-size: 23%;
+    background-size: 15px;
     background-position: 5px center;
 }
 
 input:checked+.slider:before {
-    transform: translateX(45px);
+    transform: translateX(26px);
     background-color: #fff;
     /* background-image: url('../images/wb_sunny.png');
     background-repeat: no-repeat;
@@ -4282,32 +4278,14 @@ button:focus {
     background: #366294;
     border-radius: 50%;
     color: #fff;
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    right: 163px;
+    right: 137px;
     bottom: 10px;
-}
-
-#upbutton {
-    /* bottom: 50px;
-    right: 70px;
-    cursor: pointer;
-    display: none;
-    position: fixed;
-    z-index: 999;
-    background: #72b5da;
-    border-radius: 10%;
-    color: #fff;
-    width: 60px;
-    height: 35px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center */
 }
 
 .naverh1 {
