@@ -5074,10 +5074,14 @@ button:focus {
     color: var(--fc-btn);
     border-radius: 6px;
 }
+<<<<<<< Updated upstream
 
 
 /* Block Maps */
 
+=======
+/* Block Maps */
+>>>>>>> Stashed changes
 .corpus {
     display: flex;
     flex-wrap: wrap;
