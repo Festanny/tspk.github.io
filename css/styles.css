@@ -56,7 +56,8 @@ body {
 .submenu a,
 .submenu1 a,
 .submenu3 a,
-.fast-3 a {
+.fast-3 a,
+.resource {
     color: var(--font-color);
 }
 
