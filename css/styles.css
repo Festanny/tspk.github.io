@@ -5082,4 +5082,26 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 24px;
+}
+
+.maps-1 {
+    margin-top: 30px;
+}
+
+.corpus h1 {
+    margin: 0;
+}
+
+.corpus .frame span:first-of-type {
+    display: block;
+    margin-top: 16px;
+}
+
+.corpus .frame span {
+    font-size: 24px;
+}
+
+.corpus .frame-1 {
+    margin-right: 20px;
 }
