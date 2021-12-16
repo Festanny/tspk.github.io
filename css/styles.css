@@ -15,7 +15,7 @@ body {
     --primary-color: #302AE6;
     --secondary-color: #536390;
     --font-color: #5d5d5d;
-    --font-color-fast: #2f2f2f;
+    --font-color-fast: #1e1e1e;
     --bg-color: #ebedf0;
     --heading-color: #292922;
     --bg-color-block: #ffffff;
@@ -94,7 +94,7 @@ body {
     right: 0;
     top: 0;
     transition: .4s;
-    background-image: url('../images/sunny.svg');
+    background-image: url('../image/sunny.svg');
     background-repeat: no-repeat;
     background-size: 22px;
     background-position: 35px center;
@@ -115,7 +115,7 @@ body {
 
 input:checked+.slider {
     /* border: 2px solid#fff */
-    background-image: url('../images/moon.svg');
+    background-image: url('../image/moon.svg');
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 5px center;
@@ -124,7 +124,7 @@ input:checked+.slider {
 input:checked+.slider:before {
     transform: translateX(26px);
     background-color: #fff;
-    /* background-image: url('../images/wb_sunny.png');
+    /* background-image: url('../image/wb_sunny.png');
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center; */
@@ -185,15 +185,23 @@ h3 {
     transition: .3s
 }
 
-.main-title {
+.header-text {
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title {
+    display: block;
     margin: 0;
     padding: 10px;
     color: #f9f1e9;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate3d(-50%, -50%, 0);
-    transform: translate3d(-50%, 0, 0);
     text-align: center;
     max-width: 800px;
     border: 5px solid#fff
@@ -209,7 +217,7 @@ h3 {
 
 .demo-1 .main-title {
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 48px;
     letter-spacing: .1em
 }
 
@@ -223,20 +231,20 @@ h3 {
 }
 
 .main-title1 {
-    position: absolute;
     margin: 0;
-    padding: 10px;
     color: var(--font-color);
-    top: 80%;
-    left: 50%;
-    -webkit-transform: translate3d(-75%, -50%, 0);
-    transform: translate3d(-50%, 0, 0);
     text-align: center;
     max-width: 800px;
-    transition: .3s
+    transition: .3s;
+    margin-top: 20px;
 }
 
-.main-title1:after {
+.main-title1 span {
+    position: relative;
+    display: block;
+}
+
+.main-title1 span:after {
     content: "";
     width: 40px;
     height: 40px;
@@ -944,7 +952,8 @@ header {
 }
 
 .obch_cursor {
-    cursor: default
+    position: relative;
+    cursor: default;
 }
 
 main {
@@ -1183,7 +1192,7 @@ li:focus-within {
 }
 
 blockquote {
-    background: var(--bg-color-block) url(http://tspk.org/images/box_info.png)0 0 no-repeat;
+    background: var(--bg-color-block) url(http://tspk.org/image/box_info.png)0 0 no-repeat;
     padding-left: 40px;
     font-size: 1.1em;
     line-height: 1.6em;
@@ -3395,43 +3404,43 @@ progress::-moz-progress-bar {
 }
 
 .iconblock-5 .icon-img1 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)0-5px
+    background: url(../image/bisriy_dostup_sprite-min.png)0-5px
 }
 
 .iconblock-5 .icon-img2 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)-55px -5px
+    background: url(../image/bisriy_dostup_sprite-min.png)-55px -5px
 }
 
 .iconblock-5 .icon-img3 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)-113px -1px
+    background: url(../image/bisriy_dostup_sprite-min.png)-113px -1px
 }
 
 .iconblock-5 .icon-img4 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)-169px -5px
+    background: url(../image/bisriy_dostup_sprite-min.png)-169px -5px
 }
 
 .iconblock-5 .icon-img5 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)-275px -2px
+    background: url(../image/bisriy_dostup_sprite-min.png)-275px -2px
 }
 
 .iconblock-5 .icon-img6 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)-336px -1px
+    background: url(../image/bisriy_dostup_sprite-min.png)-336px -1px
 }
 
 .iconblock-5 .icon-img7 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)-386px -3px
+    background: url(../image/bisriy_dostup_sprite-min.png)-386px -3px
 }
 
 .iconblock-5 .icon-img8 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)-437px -3px
+    background: url(../image/bisriy_dostup_sprite-min.png)-437px -3px
 }
 
 .iconblock-5 .icon-img9 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)-487px -5px
+    background: url(../image/bisriy_dostup_sprite-min.png)-487px -5px
 }
 
 .iconblock-5 .icon-img10 i {
-    background: url(../images/bisriy_dostup_sprite-min.png)-535px -4px
+    background: url(../image/bisriy_dostup_sprite-min.png)-535px -4px
 }
 
 .iconblock-5 .icon svg path {
@@ -4379,13 +4388,8 @@ button:focus {
 }
 
 .main-logo {
-    position: absolute;
     margin: 0;
     padding: 0;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate3d(-50%, -50%, 0);
-    transform: translate3d(-50%, -100%, 0)
 }
 
 .main-logo img {
@@ -4393,13 +4397,8 @@ button:focus {
 }
 
 .main-logo1 {
-    position: absolute;
     margin: 0;
     padding: 0;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate3d(-50%, -50%, 0);
-    transform: translate3d(-50%, -100%, 0)
 }
 
 .fast-2 {
@@ -4891,43 +4890,43 @@ button:focus {
 }
 
 .fast1::before {
-    background-image: url('../images/schedule.png');
+    background-image: url('../image/schedule.png');
 }
 
 .fast2::before {
-    background-image: url('../images/intelligence.png');
+    background-image: url('../image/intelligence.png');
 }
 
 .fast3::before {
-    background-image: url('../images/specialties.png');
+    background-image: url('../image/specialties.png');
 }
 
 .fast4::before {
-    background-image: url('../images/dop.png');
+    background-image: url('../image/dop.png');
 }
 
 .fast5::before {
-    background-image: url('../images/reception.png');
+    background-image: url('../image/reception.png');
 }
 
 .res1::before {
-    background-image: url('../images/resource.png');
+    background-image: url('../image/resource.png');
 }
 
 .res2::before {
-    background-image: url('../images/job.png');
+    background-image: url('../image/job.png');
 }
 
 .res3::before {
-    background-image: url('../images/awards.png');
+    background-image: url('../image/awards.png');
 }
 
 .res4::before {
-    background-image: url('../images/el-resource.png');
+    background-image: url('../image/el-resource.png');
 }
 
 .res5::before {
-    background-image: url('../images/videoTSPK.png');
+    background-image: url('../image/videoTSPK.png');
 }
 
 .news-main {
@@ -5077,7 +5076,7 @@ button:focus {
 }
 
 .corpus .frame span {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .corpus .frame-1 {
@@ -5087,4 +5086,28 @@ button:focus {
 .map-hidden {
     border-radius: 6px;
     overflow: hidden;
+}
+
+.version {
+    padding: 0;
+}
+
+.version a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.version img {
+    width: 48px;
+    margin-right: 16px;
+}
+
+.version span {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--font-color-fast);
 }
