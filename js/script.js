@@ -30,7 +30,7 @@ inputStart[1].onblur = function() {
 };
 
 // Выключение overflow у body
-let ovHidden = document.querySelector('.nav__trigger');
+var ovHidden = document.querySelector('.nav__trigger');
 
 ovHidden.onclick = () => {
     if (ovHidden.className == 'nav__trigger is-active') {
@@ -39,4 +39,4 @@ ovHidden.onclick = () => {
     else {
         document.body.style.overflowY = 'scroll';
     }
-}
+};
