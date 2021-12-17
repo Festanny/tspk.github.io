@@ -1454,6 +1454,13 @@ a {
     padding: 0 60px;
     color: #fff;
     background: #4D6A81;
+    opacity: 0;
+    transition: all 0.2s ease 0s;
+}
+
+.nav__content.is-active .auth {
+    opacity: 1;
+    transition: all 0.2s ease 0s;
 }
 
 .nav__content .auth .auth-main {
@@ -1471,11 +1478,18 @@ a {
     margin-top: 48px;
 }
 
-.nav__content .auth .auth-main form input[type="text"],
-.nav__content .auth .auth-main form input[type="password"] {
+.nav__content .auth .form_block input[type="text"],
+.nav__content .auth .form_block input[type="password"] {
     width: 100%;
+    border: 0;
+    outline: 0;
     background: transparent;
+    display: block;
+    overflow: hidden;
+    height: 35px;
     border-bottom: 1px solid #fff;
+    transition: all .3s ease-in-out;
+    color: #fff;
 }
 
 .header.menu-opened .nav__content {
@@ -3674,7 +3688,7 @@ progress::-moz-progress-bar {
 }
 
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:before {
-    content: "●";
+    content: "—";
     font-weight: 400;
     font-style: normal;
     display: inline-block;
@@ -5102,3 +5116,60 @@ button:focus {
     font-weight: bold;
     color: var(--font-color-fast);
 }
+
+.form_block .inputRel {
+    position: relative;
+}
+
+.form_block .inputRel .inputV {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 16px;
+    transition: top .2s, font-size .2s ease-in-out;
+    cursor: text;
+}
+
+.form_block .inputRel .labelFocus {
+	position: absolute;
+	top: -17px;
+	font-size: 12px;
+	transition: top .2s, font-size .2s ease-in-out;
+}
+
+.form_block .inputRel,
+.form_block .inputCheck,
+.form_block input[type="button"] {
+    margin-top: 32px;
+}
+
+.form_block .inputRel:first-of-type {
+    margin-top: 0;
+}
+
+.auth .auth_soc {
+    margin-top: 45px;
+}
+
+.form_block input[type="button"] {
+    padding: 10px 24px;
+    color: #5D5D5D;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+}
+
+.auth .auth_soc .img_soc_auth {
+    margin-top: 16px;
+}
+
+.auth .auth_soc .img_soc_auth a {
+    width: 35px;
+    height: 35px;
+    margin-right: 16px;
+}
+
+.auth .auth_soc .img_soc_auth a img {
+    width: 100%;
+}
+

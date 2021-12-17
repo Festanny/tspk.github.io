@@ -1105,16 +1105,16 @@
                 <div class="auth-main">
                     <span class="auth_h">Авторизация</span>
                     <form action="" method="POST">
-                        <div>
+                        <div class="form_block">
                             <div class="inputRel">
-                                <input type="text" id="login" name="login">
-                                <label for="login">Имя (логин)</label>
+                                <input type="text" id="login" name="login" class="inputDefault">
+                                <label for="login" id="labelFocus" class="inputV">Имя (логин)</label>
                             </div>
                             <div class="inputRel">
-                                <input type="password" id="pass" name="password">
-                                <label for="pass">Пароль</label>
+                                <input type="password" id="pass" name="password" class="inputDefault">
+                                <label for="pass" id="labelFocus" class="inputV">Пароль</label>
                             </div>
-                            <div>
+                            <div class="inputCheck">
                                 <input type="checkbox" id="save" name="save">
                                 <label for="save">Запомнить меня</label>
                             </div>
@@ -1122,12 +1122,13 @@
                         </div>
                         <div class="auth_soc">
                             <span class="auth_h">Авторизоваться через социальные сети</span>
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
-                            <img src="" alt="">
+                            <div class="img_soc_auth">
+                                <a href="#"><img src="image/social/google.png" alt=""></a>
+                                <a href="#"><img src="image/social/vk.png" alt=""></a>
+                                <a href="#"><img src="image/social/facebook.png" alt=""></a>
+                                <a href="#"><img src="image/social/yandex.png" alt=""></a>
+                            </div>
                         </div>
-
                     </form>
                 </div>
             </div>
@@ -2123,16 +2124,6 @@
     <!-- ВНЕШНИЕ СКРИПТЫ -->
 
     <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript">
-        $(document).on('ready', function() {
-            $(".regular").slick({
-                dots: true,
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 3
-            });
-        });
-    </script>
     <script src="js/card.js"></script>
     <!-- <script src="http://tspk.org/templates/tspk6/time_pary.js"></script> -->
     <script src="js/EffectLine1.js"></script>
@@ -2141,7 +2132,7 @@
     <script src=js/menu.js></script>
     <script src="js/carousel-gallery.js"></script>
     <script src="js/menu-test.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
