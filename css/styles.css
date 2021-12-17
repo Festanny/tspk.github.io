@@ -4843,6 +4843,8 @@ button:focus {
     border-radius: 6px;
     transition: all .35s ease-in-out;
     height: 320px!important;
+    color: var(--font-color-fast);
+    transition: color 0s ease-in-out;
 }
 
 .news-block .img .text-hover {
@@ -4929,6 +4931,7 @@ button:focus {
     width: 100%;
     text-align: center;
     margin-top: 59px;
+    padding: 18px 32px;
 }
 
 .btn_allnews {
