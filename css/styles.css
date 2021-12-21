@@ -8,7 +8,8 @@ body {
     font-family: 'Open Sans', 'Arial', sans-serif;
     line-height: normal;
     background-color: var(--bg-color);
-    transition: 0s
+	overflow: hidden;
+    transition: 0s;
 }
 
 :root {
