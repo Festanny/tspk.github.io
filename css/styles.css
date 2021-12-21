@@ -5109,7 +5109,7 @@ footer .info_corpus .info span {
 }
 
 .modal .modal-body .news-text {
-	margin-top: 32px;
+	margin-top: 32px!important;
 }
 
 .modal .modal-body .container {
