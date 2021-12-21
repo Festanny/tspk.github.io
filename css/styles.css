@@ -4707,6 +4707,7 @@ button:focus {
     height: 320px!important;
     color: var(--font-color-fast);
     transition: color 0s ease-in-out;
+	cursor: pointer;
 }
 
 .news-block .img .text-hover {
