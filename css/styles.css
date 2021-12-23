@@ -205,9 +205,48 @@ header .container .header-nav .header-info {
 }
 
 header .container .header-nav .header-info a {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	margin-right: 94px;
+}
+
+header .container .header-nav .header-info a::before {
+	position: absolute;
+    content: "";
+    top: 13px;
+    right: -26px;
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+    transition: .3s;
+    z-index: 20;
+}
+
+header .container .header-nav .header-info a:hover::before {
+    transform: rotate(45deg) translate(10px, -10px);
+    transition: .3s;
+}
+
+header .container .header-nav .header-info a::after {
+	position: absolute;
+    content: "";
+    top: 17px;
+    right: -26px;
+    width: 16px;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+    z-index: 20;
+	opacity: 0;
+}
+
+header .container .header-nav .header-info a:hover::after {
+    transition: .3s;
+	opacity: 1;
+	transform: translateX(12px);
 }
 
 header .container .header-nav .header-info a:last-of-type {
