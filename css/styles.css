@@ -154,6 +154,100 @@ input:checked+.slider:before {
     background-color: #252526
 }
 
+header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url('../image/main.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+header::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, rgba(0,0,0,0.5) 85%, rgba(235,237,240,1) 100%);
+}
+
+header .header-m {
+	display: none;
+}
+
+header .container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 32px 160px 32px 100px;
+}
+
+header .container .header-nav {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .container .header-nav .logo {
+	width: 130px;
+}
+
+header .container .header-nav .logo img {
+	width: 100%;
+}
+
+header .container .header-nav .header-info {
+	display: flex;
+}
+
+header .container .header-nav .header-info a {
+	display: flex;
+	flex-direction: column;
+	margin-right: 94px;
+}
+
+header .container .header-nav .header-info a:last-of-type {
+	margin-right: 0;
+}
+
+header .container .header-nav .header-info a span {
+	color: #fff;
+}
+
+header .container .header-nav .header-info a span:first-of-type {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+header .container .header-nav .header-info a span:last-of-type {
+	font-size: 16px;
+	margin-top: 6px;
+}
+
+header .container .header-text-main {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	bottom: 120px;
+	width: 1200px;
+}
+
+header .container .header-text-main span:first-of-type {
+	font-size: 65px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+header .container .header-text-main span:last-of-type {
+	font-size: 32px;
+	margin-top: 48px;
+}
+
+
 
 .large-header {
     position: relative;
@@ -432,12 +526,6 @@ a:hover {
     display: none
 }
 
-header {
-    width: 100%;
-    margin-top: 60px;
-    display: none
-}
-
 .header-main {
     width: 100%;
     padding: 10px;
@@ -472,11 +560,6 @@ header {
     font-size: 25px;
     text-transform: uppercase;
     justify-content: flex-end
-}
-
-header {
-    width: 100%;
-    margin-top: 60px
 }
 
 .header-m {
