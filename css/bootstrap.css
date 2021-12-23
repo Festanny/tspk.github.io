@@ -4919,7 +4919,7 @@ textarea.form-control-lg {
 	height: 20px;
 	padding: 0.25em 0.25em;
 	color: #000;
-	background: transparent url(http://127.0.0.1:55635/image/close.svg) center/20px auto no-repeat;
+	background: transparent url(../image/close.svg) center/20px auto no-repeat;
 	border: 0;
 	border-radius: 0.25rem;
 	opacity: 1;
