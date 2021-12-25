@@ -5293,3 +5293,215 @@ footer .info_corpus .info span {
 	padding: 7px 16px 16px 16px;
 	font-weight: bold;
 }
+
+
+/*  */
+
+.header_d{
+    background: #4D6A81;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 74px;
+}
+
+.header_d img{
+    width: 74px;
+    height: 44px;
+    margin-right: 32px;
+}
+
+.header_d h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    display: block;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+main .title{
+    margin-bottom: 20px;
+}
+
+.vakan tr {
+    border: 1px solid #d8d8d8;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+.marks {
+    background: #628299;
+    color: #FFF;
+    padding: 2px 5px;
+    display: block;
+}
+
+.vakan td:first-child{
+    background: var(--bg-color);
+    width: 40%;
+}
+
+.vakan td{
+    padding: 4px 15px;
+    vertical-align: middle;
+}
+
+.vakan{
+    margin-top: 48px;
+}
+
+.vakan:first-child{
+    margin-top: 0;
+}
+
+
+/*  */
+
+.description{
+    width: 100%;
+    height: auto;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #97A6B5;
+    margin-bottom: 48px;
+}
+
+.introduction, .basic_information, .categories, .documents, .term, .mode, .form_education, .acceptance_of_documents, .navigation{
+    margin: 32px 0;
+}
+
+.introduction h2, .categories h2, .documents h2, .term h2, .mode h2, .form_education h2, .acceptance_of_documents h2, .navigation h2{
+    font-weight: bold;
+}
+
+.point_information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.point_information img{
+    width: 30px;
+    height: 22.84px;  
+    margin-right: 16px;
+}
+
+.bordered{
+    width: 100%;
+}
+
+.bordered td p{
+    text-align: center;
+}
+
+.bordered tr:first-child{
+    background: var(--block-border);
+}
+
+.bordered tr:hover{
+    background: var(--bg-color);
+}
+
+.adress span, .contacts span{
+    color: var(--font-color-blue);
+    font-weight: 700;
+}
+
+.contacts{
+    margin-top: 32px;
+}
+
+
+
+/* новости все */
+
+.news-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-all .news-block {
+    width: 280px;
+    margin-bottom: 30px;
+    height: 310px!important;
+}
+
+.news-all .news-block .img {
+    width: 100%;
+    height: 166px;
+}
+
+.news-all .news-block .img img {
+    width: 100%;
+    height: auto;
+}
+
+.number_page_btn {
+    margin-top: 48px;
+}
+
+.number_page_btn ul {
+    display: flex;
+    justify-content: center;
+}
+
+.number_page_btn ul li {
+    margin-right: 16px;
+}
+
+.number_page_btn ul li a {
+    position: relative;
+    color: var(--font-color);
+}
+
+.number_page_btn ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--font-color);
+    opacity: 0;
+    transition: all .3s;
+}
+
+.number_page_btn ul li a:hover::before {
+    opacity: 1;
+    bottom: -5px;
+}
+
+/* приёмная коммисия */
+
+.basic_information ol{
+    padding: 0 0 0 20px;
+}
+
+.basic_information ol li{
+    list-style-type: auto;
+}
+
+.basic_information p span{
+    font-weight: 700;
+}
+
+.ps{
+    margin: 48px 0;
+}
+
+.ps span{
+    color: var(--font-color-blue);
+}

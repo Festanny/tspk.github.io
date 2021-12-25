@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Официальный сайт 🎓 ГАПОУ Тольяттинский социально-педагогический колледж ТСПК</title>
-    <link href="image/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link href="../image/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
-
 <body>
+    
     <div class="preloader">
         <div class="preloader__text">ПОДОЖДИТЕ НЕМНОГО, МЫ ЗАГРУЖАЕМ СТРАНИЦУ!</div>
         <div class="preloader__row">
@@ -36,326 +35,128 @@
 			<span class="progress-bar"></span>
 		</div>
 	</progress>
+    
+    <a href="/" class="header_d">
+        <img src="../image/logo2.png" alt="" class="header_logo">
+        <h1>Тольяттинский социально-педагогический колледж</h1>
+    </a>
 
-	<header>
-		<div class="header container">
-			<div class="header-nav">
-				<div class="logo"><img src="image/logo1.png" alt=""></div>
-				<div class="header-info">
-					<a href="#">
-						<span>Хочу здесь учиться</span>
-						<span>Образовательные программы</span>
-					</a>
-					<a href="#">
-						<span>Хочу здесь работать</span>
-						<span>Вакансии</span>
-					</a>
-				</div>
-			</div>
-			<div class="header-text-main">
-				<span>Тольяттинский социально-педагогический колледж</span>
-				<span>Наша главная цель: выпустить образованных и квалифицированных специалистов </span>
-			</div>
-		</div>
-		<div class="header-m">
-			<div class="header-m_img"><img src="image/logo1.png"></div>
-			<div class="header-m_text-flex">
-				<div class="header-m_text">
-					<div class="header-m_text1">ТОЛЬЯТТИНСКИЙ СОЦИАЛЬНО-<br>ПЕДАГОГИЧЕСКИЙ КОЛЛЕДЖ</div>
-					<div class="header-m_text2">Государственное автономное профессиональное образовательное учреждение Самарской области
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-
-    <div id="start"></div>
     <main>
+        <span class="title">Все новости ТСПК</span>
         <section class="version">
             <a href="https://tspk.org/home_sl.html?template=accessibility">
-                <img src="image/eye.svg" alt="">
+                <img src="../image/eye.svg" alt="">
                 <span>Версия для слабовидящих</span>
             </a>
         </section>
         <section>
-            <div class="visitor container">
-                <div class="img"><img src="image/director.png" alt=""></div>
-                <div class="info">
-                    <span>Уважаемые посетители!</span>
-                    <div>
-                        <p>Рады приветствовать Вас на официальном сайте Тольяттинского социально-педагогического колледжа! (ТСПК)</p>
-                        <p>Наш сайт предназначен широкому кругу общественности, адресован как студентам, так и заинтересованным родителям.</p>
-                        <p>Мы с удовольствием расскажем Вам, чем живет наш колледж, порадуем нашими достижениями и победами. Надеемся, что здесь Вы найдете интересную и полезную информацию и убедитесь в качественной работе нашего персонала.</p>
+            <div class="news-all container">
+                <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
+                    <div class="img">
+                        <img src="../image/news1.png" alt="">
+                        <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
                     </div>
-                    <span>Мальченкова Ирина Владимировна,<br>к.п.н. директор ГАПОУ ТСПК</span>
-                </div>
-            </div>
-
-
-            <div class="dop-info">
-                <div class="dop-info-1 container">
-                    <div style="width: 100%;">
-                        <button class="learn-more">
-                          <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
-                          </span>
-                          <span class="button-text">РЕЗУЛЬТАТЫ МОНИТОРИНГА</span>
-                        </button>
-                        <div class="panel">
-                            <div class="post-item">
-                                <div class="item-content">
-                                    <div class="item-icon group"><img src="image/1mesto_monot.png"></div>
-                                    <div class="item-body">
-                                        <h3>РЕЗУЛЬТАТЫ МОНИТОРИНГА</h3>
-                                        <hr class="hr12">
-                                        <p>Государственное автономное профессиональное образовательное учреждение Самарской области "Тольяттинский социально-педагогический колледж" занимает <span class="mesto"><strong>1
-                      место</strong></span> по результатам мониторинга эффективности деятельности профессиональных образовательных организаций Самарской области в 2019 году среди 62 образовательных учреждений.
-                                        </p>
-                                    </div>
-                                    <div class="item-footer">
-                                        <a href="#" class="link"><span class="mesto1">Подробнее о результатах мониторинга эффективности
-                    деятельности профессиональных образовательных организаций <span class="h4">читайте
-                      тут</span></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="width: 100%;">
-                        <button class="learn-more">
-                          <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
-                          </span>
-                          <span class="button-text">ГОЛОСОВАНИЕ</span>
-                        </button>
-                        <div class="panel">
-                            <script src="https://vk.com/js/api/openapi.js?167" type="text/javascript"></script>
-                            <script type="text/javascript">
-                                VK.init({
-                                    apiId: 7318943,
-                                    onlyWidgets: true
-                                });
-                            </script>
-                            <div id="vk_poll"></div>
-                            <script type="text/javascript">
-                                VK.Widgets.Poll("vk_poll", {}, "362988771_f26030ad296765de2a");
-                            </script>
-                        </div>
+                    <div class="text">
+                        <h2>Спартакиада по плаванию среди<br> учителей</h2>
+                        <span>07-02-2020</span>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="fast container">
-                <span class="title">Быстрый доступ</span>
-                <div class="fast-main">
-                    <a href="https://tspk.org/studentam/novoe-raspisanie-demo.html" class="fast1 fast-block">
-                        <div class="span-block">
-                            <h2>Расписание занятий</h2>
-                            <span>Ежедневно обновляемое расписание</span>
-                        </div>
-                    </a>
-                    <a href="#" class="fast2 fast-block">
-                        <div class="span-block">
-                            <h2>Сведения об образовательной организации</h2>
-                        </div>
-                    </a>
-                    <a href="#" class="fast3 fast-block">
-                        <div class="span-block">
-                            <h2>Наши специальности</h2>
-                        </div>
-                    </a>
-                    <a href="#" class="fast4 fast-block">
-                        <div class="span-block">
-                            <h2>Дополнительное профессиональное образование</h2>
-                        </div>
-                    </a>
-                    <a href="#" class="fast5 fast-block">
-                        <div class="span-block">
-                            <h2>Приёмная комиссия</h2>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="news container">
-                <span class="title">Последние новости</span>
-                <div class="news-main regular">
-                    <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
-                        <div class="img">
-                            <img src="image/news1.png" alt="">
-                            <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
-                        </div>
-                        <div class="text">
-                            <h2>Спартакиада по плаванию среди<br> учителей</h2>
-                            <span>07-02-2020</span>
-                        </div>
+                <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
+                    <div class="img">
+                        <img src="../image/news2.png" alt="">
+                        <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
                     </div>
-                    <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
-                        <div class="img">
-                            <img src="image/news2.png" alt="">
-                            <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
-                        </div>
-                        <div class="text">
-                            <h2>Спартакиада по плаванию среди<br> учителей</h2>
-                            <span>07-02-2020</span>
-                        </div>
-                    </div>
-                    <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
-                        <div class="img">
-                            <img src="image/news1.png" alt="">
-                            <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
-                        </div>
-                        <div class="text">
-                            <h2>Спартакиада по плаванию среди<br> учителей</h2>
-                            <span>07-02-2020</span>
-                        </div>
-                    </div>
-                    <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
-                        <div class="img">
-                            <img src="image/news2.png" alt="">
-                            <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
-                        </div>
-                        <div class="text">
-                            <h2>Спартакиада по плаванию среди<br> учителей</h2>
-                            <span>07-02-2020</span>
-                        </div>
-                    </div>
-                    <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
-                        <div class="img">
-                            <img src="image/news1.png" alt="">
-                            <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
-                        </div>
-                        <div class="text">
-                            <h2>Спартакиада по плаванию среди<br> учителей</h2>
-                            <span>07-02-2020</span>
-                        </div>
-                    </div>
-                    <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
-                        <div class="img">
-                            <img src="image/news1.png" alt="">
-                            <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
-                        </div>
-                        <div class="text">
-                            <h2>Спартакиада по плаванию среди<br> учителей</h2>
-                            <span>07-02-2020</span>
-                        </div>
-                    </div>
-                    <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
-                        <div class="img">
-                            <img src="image/news2.png" alt="">
-                            <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
-                        </div>
-                        <div class="text">
-                            <h2>Спартакиада по плаванию среди<br> учителей</h2>
-                            <span>07-02-2020</span>
-                        </div>
+                    <div class="text">
+                        <h2>Спартакиада по плаванию среди<br> учителей</h2>
+                        <span>07-02-2020</span>
                     </div>
                 </div>
-                <div class="btnWidthAll">
-                    <a href="page/all_news.html" class="btn_allnews">Показать все новости</a>
+                <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
+                    <div class="img">
+                        <img src="../image/news1.png" alt="">
+                        <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
+                    </div>
+                    <div class="text">
+                        <h2>Спартакиада по плаванию среди<br> учителей</h2>
+                        <span>07-02-2020</span>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="resource container">
-                <span class="title">Полезные ресурсы</span>
-                <div class="fast-main">
-                    <div class="res1 fast-block" data-bs-toggle="modal" data-bs-target="#ed_resource">
-                        <div class="span-block">
-                            <h2>Образовательные ресурсы</h2>
-                            <span>Сервисы для помощи в образовании</span>
-                        </div>
+                <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
+                    <div class="img">
+                        <img src="../image/news2.png" alt="">
+                        <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
                     </div>
-                    <div class="res2 fast-block" >
-                        <div class="span-block">
-                            <h2>Вакансии ТСПК</h2>
-                        </div>
+                    <div class="text">
+                        <h2>Спартакиада по плаванию среди<br> учителей</h2>
+                        <span>07-02-2020</span>
                     </div>
-                    <div class="res3 fast-block" data-bs-toggle="modal" data-bs-target="#awards">
-                        <div class="span-block">
-                            <h2>Награды сайта ТСПК</h2>
-                        </div>
+                </div>
+                <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
+                    <div class="img">
+                        <img src="../image/news1.png" alt="">
+                        <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
                     </div>
-                    <div class="res4 fast-block" data-bs-toggle="modal" data-bs-target="#el_resource">
-                        <div class="span-block">
-                            <h2>Электронные ресурсы</h2>
-                        </div>
+                    <div class="text">
+                        <h2>Спартакиада по плаванию среди<br> учителей</h2>
+                        <span>07-02-2020</span>
                     </div>
-                    <div class="res5 fast-block">
-                        <div class="span-block">
-                            <h2>Видео ТСПК</h2>
-                        </div>
+                </div>
+                <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
+                    <div class="img">
+                        <img src="../image/news1.png" alt="">
+                        <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
+                    </div>
+                    <div class="text">
+                        <h2>Спартакиада по плаванию среди<br> учителей</h2>
+                        <span>07-02-2020</span>
+                    </div>
+                </div>
+                <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
+                    <div class="img">
+                        <img src="../image/news2.png" alt="">
+                        <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
+                    </div>
+                    <div class="text">
+                        <h2>Спартакиада по плаванию среди<br> учителей</h2>
+                        <span>07-02-2020</span>
+                    </div>
+                </div>
+                <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
+                    <div class="img">
+                        <img src="../image/news1.png" alt="">
+                        <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
+                    </div>
+                    <div class="text">
+                        <h2>Спартакиада по плаванию среди<br> учителей</h2>
+                        <span>07-02-2020</span>
+                    </div>
+                </div>
+                <div class="news-block" data-bs-toggle="modal" data-bs-target="#news">
+                    <div class="img">
+                        <img src="../image/news2.png" alt="">
+                        <div class="text-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi nemo sapiente! Ut ipsam quos debitis tempore ipsum magnam obcaecati ullam ex quia? Voluptatum ad quasi quaerat tempore iste! Eaque.</div>
+                    </div>
+                    <div class="text">
+                        <h2>Спартакиада по плаванию среди<br> учителей</h2>
+                        <span>07-02-2020</span>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="map-main container">
-                <span class="title">Как нас найти?</span>
-                <div class="maps-1">
-                    <!-- Карта -->
-                    <div class="map-hidden">
-                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab6fcb13c94c0631b4355aae27d980e2262dadad7d849610770a2a0de906b5874&amp;width=1007&amp;height=542&amp;lang=ru_RU&amp;scroll=true"></script>
-                    </div>
-                    <div class="corpus">
-                        <div class="frame-1 frame">
-                            <h1>Главный корпус</h1>
-                            <span>г. Тольятти, Мурысева, 84</span>
-                            <span> 24-10-25 (вахта), 24-30-54 (приемная)</span>
-                        </div>
-                        <div class="frame-2 frame">
-                            <h1>Второй корпус</h1>
-                            <span>г. Тольятти, ул. Ленинградская, 28</span>
-                            <span>28-36-44 (вахта)</span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer">
-            <div class="info_corpus">
-                <div class="corpus_footer">
-                    <div>
-                        <h1>Первый корпус</h1>
-                        <div class="info">
-                            <span>24-10-25 - Вахта 1 корпуса</span>
-                            <span>24-30-54 - Приемная директора</span>
-                            <span>г.Тольятти, Мурысева, 84</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="corpus_footer logo_footer"><img src="image/logo1.png" alt=""></div>
-                <div class="corpus_footer">
-                    <div>
-                        <h1>Второй корпус</h1>
-                        <div class="info">
-                            <span>48-20-93 - Вахта 2 корпуса</span>
-                            <span>28-36-44 - Секретарь директора</span>
-                            <span>г. Тольятти, ул. Ленинградская, 28</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="info_social_btn">
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Вконтакте</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">YouTube</a></li>
-                    <li><a href="#">WhatsApp</a></li>
-                </ul>
-            </div>
+        <div class="number_page_btn">
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+            </ul>
         </div>
-    </footer>
-
-
+    </main>
     <!--	ОСНОВНОЕ МЕНЮ	--->
     <div class="nav">
         <a class="nav__trigger">
@@ -753,6 +554,241 @@
                                             </ul>
                                         </div>
                                     </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="far fa-gem"></i>
+                                            <span>Документы</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">General</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Panels</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Tables</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Icons</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Forms</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="fa fa-chart-line"></i>
+                                            <span>Абитуриент 2020</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Pie chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Line chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bar chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Histogram</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="far fa-gem"></i>
+                                            <span>Документы</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">General</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Panels</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Tables</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Icons</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Forms</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="fa fa-chart-line"></i>
+                                            <span>Абитуриент 2020</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Pie chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Line chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bar chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Histogram</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="far fa-gem"></i>
+                                            <span>Документы</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">General</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Panels</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Tables</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Icons</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Forms</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="fa fa-chart-line"></i>
+                                            <span>Абитуриент 2020</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Pie chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Line chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bar chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Histogram</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="far fa-gem"></i>
+                                            <span>Документы</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">General</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Panels</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Tables</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Icons</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Forms</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="fa fa-chart-line"></i>
+                                            <span>Абитуриент 2020</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Pie chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Line chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bar chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Histogram</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="far fa-gem"></i>
+                                            <span>Документы</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">General</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Panels</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Tables</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Icons</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Forms</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar-dropdown">
+                                        <a href="#">
+                                            <i class="fa fa-chart-line"></i>
+                                            <span>Абитуриент 2020</span>
+                                        </a>
+                                        <div class="sidebar-submenu">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Pie chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Line chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bar chart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Histogram</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -781,9 +817,9 @@
                         <div class="auth_soc">
                             <span class="auth_h">Авторизоваться через социальные сети</span>
                             <div class="img_soc_auth">
-                                <a href="#"><img src="image/social/google.png" alt=""></a>
-                                <a href="#"><img src="image/social/vk.png" alt=""></a>
-                                <a href="#"><img src="image/social/facebook.png" alt=""></a>
+                                <a href="#"><img src="../image/social/google.png" alt=""></a>
+                                <a href="#"><img src="../image/social/vk.png" alt=""></a>
+                                <a href="#"><img src="../image/social/facebook.png" alt=""></a>
                                 <a href="#"><img src="image/social/yandex.png" alt=""></a>
                             </div>
                         </div>
@@ -792,10 +828,45 @@
             </div>
         </div>
     </div>
-
-
+    <footer>
+        <div class="footer">
+            <div class="info_corpus">
+                <div class="corpus_footer">
+                    <div>
+                        <h1>Первый корпус</h1>
+                        <div class="info">
+                            <span>24-10-25 - Вахта 1 корпуса</span>
+                            <span>24-30-54 - Приемная директора</span>
+                            <span>г.Тольятти, Мурысева, 84</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="corpus_footer logo_footer"><img src="../image/logo1.png" alt=""></div>
+                <div class="corpus_footer">
+                    <div>
+                        <h1>Второй корпус</h1>
+                        <div class="info">
+                            <span>48-20-93 - Вахта 2 корпуса</span>
+                            <span>28-36-44 - Секретарь директора</span>
+                            <span>г. Тольятти, ул. Ленинградская, 28</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info_social_btn">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Вконтакте</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
     <!---КНОПКА НАВЕРХ--->
-    <div id="upbutton"><img src="image/Chevron_up_font_awesomeWhite.png"><b class="naverh1">НАВЕРХ</b></div>
+    <div id="upbutton"><img src="../image/Chevron_up_font_awesomeWhite.png"><b class="naverh1">НАВЕРХ</b></div>
     <!-- КНОПКА ПЕРЕКЛЮЧЕНИЯ ТЕМЫ -->
     <nav class="nav-theme">
         <div class="theme-switch-wrapper">
@@ -808,7 +879,6 @@
     
     
     
-
 <!-- Модальное окно новостей -->
 <div class="modal fade" id="news" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl">
@@ -828,13 +898,13 @@
 				  </div>
 				  <div class="carousel-inner">
 					<div class="carousel-item active">
-					  <img src="image/news/example1.png" class="d-block w-100" alt="...">
+					  <img src="../image/news/example1.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="image/news/example1.png" class="d-block w-100" alt="...">
+					  <img src="../image/news/example1.png" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-					  <img src="image/news/example1.png" class="d-block w-100" alt="...">
+					  <img src="../image/news/example1.png" class="d-block w-100" alt="...">
 					</div>
 				  </div>
 				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
@@ -859,268 +929,19 @@
   </div>
 </div>
 
-   
-   
-<!-- Модальное окно образовательных ресурсов -->
-<div class="modal fade" id="ed_resource" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="exampleModalLabel">Образовательные ресурсы</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <section>
-        	<div class="ed_resource-main">
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Спартакиада по плаванию среди<br> учителей</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Спартакиада по плаванию среди<br> учителей</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Спартакиада по плаванию среди<br> учителей</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Спартакиада по плаванию среди<br> учителей</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/news1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Спартакиада по плаванию среди<br> учителей</span>
-					</div>
-				</a>
-			</div>
-        </section>
-      </div>
-    </div>
-  </div>
-</div>
-   
-   
-   
-   
-<!-- Модальное окно наград ТСПК -->
-<div class="modal fade" id="awards" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="exampleModalLabel">Награды сайта</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <section>
-        	<div class="ed_resource-main">
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="https://tspk.org/images/Diplom_1_mesto_sayt_2018.jpg" alt="">
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="https://tspk.org/images/Diplom2Sait.jpg" alt="">
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="https://tspk.org/images/forum_medal_N.png" alt="">
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="https://tspk.org/images/Gramota_saita_TSPK_N.jpg" alt="">
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="https://tspk.org/images/medal-oo_N.png" alt="">
-					</div>
-				</a>
-			</div>
-        </section>
-      </div>
-    </div>
-  </div>
-</div>
-    
-    
-    
-<!-- Модальное окно электронные ресурсы -->
-<div class="modal fade" id="el_resource" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="exampleModalLabel">Электронные ресурсы</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <section>
-        	<div class="ed_resource-main">
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image1.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image2.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image3.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image4.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image5.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image6.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image7.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image8.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image9.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-				<a href="#" class="ed_resource-block">
-					<div class="img">
-						<img src="image/el_resource/image10.png" alt="">
-					</div>
-					<div class="text">
-						<span>Особая экономическая зона Тольятти</span>
-					</div>
-				</a>
-			</div>
-        </section>
-      </div>
-    </div>
-  </div>
-</div>
-    
-    
-
 
     <!-- ВНЕШНИЕ СКРИПТЫ -->
 
-   	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/card.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/card.js"></script>
     <!-- <script src="http://tspk.org/templates/tspk6/time_pary.js"></script> -->
-    <script src="js/EffectLine1.js"></script>
-    <script src="js/EffectLine2.js"></script>
-    <script src="js/demo-1.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/carousel-gallery.js"></script>
-    <script src="js/menu-test.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/EffectLine1.js"></script>
+    <script src="../js/EffectLine2.js"></script>
+    <script src="../js/demo-1.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/carousel-gallery.js"></script>
+    <script src="../js/menu-test.js"></script>
+    <script src="../js/script.js"></script>
 </body>
-
-</html>
+</html> 
