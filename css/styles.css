@@ -62,6 +62,10 @@ h2 {
 	font-size: 20px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 .submenu a,
 .submenu1 a,
 .submenu3 a,
@@ -235,7 +239,7 @@ header .container .header-nav .header-info a::after {
     content: "";
     top: 17px;
     right: -26px;
-    width: 16px;
+    width: 18px;
     height: 2px;
     background: #fff;
     transition: .3s;
