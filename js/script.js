@@ -119,3 +119,9 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+function loadFrame() {
+	document.getElementById('frame').scrollTop = 310;
+	document.getElementById('frame').scrollLeft = 40;
+}
+loadFrame();
