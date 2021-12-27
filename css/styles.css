@@ -5600,3 +5600,12 @@ tr {
 	margin-top: 16px!important;
 	color: #97A6B5;
 }
+
+ #organization .ed_resource-main .ed_resource-block .text {
+	padding: 16px;
+}
+
+#organization .ed_resource-main .ed_resource-block {
+	width: 100%;
+	margin-bottom: 16px;
+}
