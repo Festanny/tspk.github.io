@@ -33,6 +33,7 @@ body {
     --bg-btn: #517088;
     --fc-btn: #fff;
 	--inv: 0%;
+	--inv2: 100%;
 	--bg-gradient: rgba(255, 255, 255, 0.5);
 	--bg-gradient-h: rgba(255, 255, 255, 0.7);
 	--bg-gradient-h2: rgba(255, 255, 255, 0.7);
@@ -63,6 +64,7 @@ body {
     --bg-btn: #fff;
     --fc-btn: #5d5d5d;
 	--inv: 100%;
+	--inv2: 0%;
 	--bg-gradient: rgba(0, 0, 0, 0.5);
 	--bg-gradient-h: rgba(0, 0, 0, 0.7);
 	--bg-gradient-h2: rgba(0, 0, 0, 0.7);
@@ -3557,11 +3559,12 @@ progress::-moz-progress-bar {
 .sidebar-wrapper .sidebar-menu ul li a i {
     margin-right: 10px;
     font-size: 12px;
-    width: 30px;
-    height: 30px;
+    width: 0;
+    height: 0;
     line-height: 30px;
     text-align: center;
-    border-radius: 4px
+    border-radius: 4px;
+	display: none;
 }
 
 .sidebar-wrapper .sidebar-menu ul li a:hover>i::before {
@@ -4355,6 +4358,7 @@ button:focus {
     visibility: visible;
     opacity: 1;
     transition: 0s linear;
+	width: 100%;
 }
 
 .nav__content.is-active .sidebar-menu {
@@ -5368,7 +5372,7 @@ footer .info_corpus .info span {
 
 .header_d{
     background: #4D6A81;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -5376,6 +5380,10 @@ footer .info_corpus .info span {
     position: fixed;
     top: 0;
     z-index: 999;
+}
+
+.header_logo2 {
+	display: none;
 }
 
 .header_d img{
