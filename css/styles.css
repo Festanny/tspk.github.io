@@ -1605,6 +1605,12 @@ li {
     color: #000
 }
 
+.visitor-scroll {
+	height: 218px;
+	overflow-y: scroll;
+	padding-right: 8px;
+}
+
 .post-visitor {
     display: flex;
     flex-wrap: wrap;
@@ -4626,10 +4632,12 @@ button:focus {
 
 .visitor .img {
     width: 282px;
+	border-radius: 6px;
 }
 
 .visitor .img img {
     width: 100%;
+	border-radius: 6px;
 }
 
 .visitor .info {
@@ -4642,9 +4650,9 @@ button:focus {
 
 .visitor span:nth-child(1) {
     text-transform: uppercase;
-    font-size: 24px;
     font-weight: bold;
     color: var(--font-color-blue);
+	text-align: left;
 }
 
 .visitor span:nth-child(3) {
