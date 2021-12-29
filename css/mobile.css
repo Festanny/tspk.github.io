@@ -889,14 +889,6 @@
     header {
         display: none;
     }
-	.header_d {
-		display: flex;
-		position: static;
-		background: transparent;
-		padding: 5px 16px;
-		margin-top: 70px;
-		pointer-events: none;
-	}
 	.nav.is-active {
 		width: 100%;
 		height: 100%;
