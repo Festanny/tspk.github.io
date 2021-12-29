@@ -163,16 +163,16 @@
 		height: auto!important;
 	}
 	.slick-next {
-		right: 360px!important;
+		right: 41%!important;
 	}
 	.slick-prev {
-		left: 360px!important;
+		left: 41%!important;
 	}
 	.slick-dots {
-		bottom: -46px!important;
+		bottom: -28%!important;
 	}
 	.btnWidthAll {
-		margin-top: 80px;
+		margin-top: 10%;
 	}
 }
 
@@ -271,15 +271,6 @@
 	}
 	.visitor .img {
 		margin-right: 32px;
-	}
-}
-
-@media screen and (max-width:1160px) {
-	.slick-next {
-		right: 330px!important;
-	}
-	.slick-prev {
-		left: 330px!important;
 	}
 }
 
@@ -458,10 +449,10 @@
 		font-size: 22px;
 	}
 	.slick-next {
-		right: 33%!important;
+		right: 39%!important;
 	}
 	.slick-prev {
-		left: 33%!important;
+		left: 39%!important;
 	}
 	footer .logo_footer img {
 		max-width: 150px;
@@ -559,7 +550,13 @@
 		font-size: 16px;
 	}
 	.slick-dots {
-		bottom: -39px!important;
+		bottom: -32%!important;
+	}
+	.slick-next {
+		right: 37%!important;
+	}
+	.slick-prev {
+		left: 37%!important;
 	}
 	h2 {
 		font-size: 16px;
@@ -740,9 +737,6 @@
     #mode-toggler {
         padding: 6px
     }
-    .fast {
-        display: none
-    }
     .block22 {
         width: 100%
     }
@@ -886,9 +880,6 @@
     .p1 {
         font-size: 16px
     }
-    header {
-        display: none;
-    }
 	.nav.is-active {
 		width: 100%;
 		height: 100%;
@@ -918,6 +909,12 @@
     .custom5 {
         display: block
     }
+	header {
+        display: none;
+    }
+	.header-m {
+		display: flex;
+	}
 }
 
 @media screen and (max-width:640px) {

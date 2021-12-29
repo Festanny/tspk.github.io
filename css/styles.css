@@ -630,7 +630,7 @@ a:hover {
 .header-m {
 	width: 100%;
 	padding: 20px;
-	display: flex;
+	display: none;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 58px;

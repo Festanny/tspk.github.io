@@ -1,10 +1,20 @@
 $(document).on('ready', function() {
-    $(".regular").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-    });
+	if ($(window).width() > 768) {
+		$(".regular").slick({
+			dots: true,
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 3
+		});
+	}
+	else {
+		$(".regular").slick({
+			dots: true,
+			infinite: true,
+			slidesToShow: 2,
+			slidesToScroll: 2
+		});
+	}
 });
 
 
