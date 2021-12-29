@@ -1,5 +1,5 @@
 $(document).on('ready', function() {
-	if ($(window).width() > 768) {
+	if ($(window).width() >= 769) {
 		$(".regular").slick({
 			dots: true,
 			infinite: true,
@@ -7,12 +7,20 @@ $(document).on('ready', function() {
 			slidesToScroll: 3
 		});
 	}
-	else {
+	else if ($(window).width() > 480 && $(window).width() < 769 ) {
 		$(".regular").slick({
 			dots: true,
 			infinite: true,
 			slidesToShow: 2,
 			slidesToScroll: 2
+		});
+	}
+	else {
+		$(".regular").slick({
+			dots: true,
+			infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1
 		});
 	}
 });
