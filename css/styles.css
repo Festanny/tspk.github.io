@@ -1587,6 +1587,7 @@ li {
 	height: 218px;
 	overflow-y: scroll;
 	padding-right: 8px;
+	margin: 16px 0;
 }
 
 .post-visitor {
@@ -1596,7 +1597,7 @@ li {
 }
 
 .post-item * {
-    transition: .3s
+    transition: .3s;
 }
 
 .item-content {
