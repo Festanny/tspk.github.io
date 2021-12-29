@@ -5138,6 +5138,7 @@ footer .info_social_btn {
 footer .info_social_btn ul {
     display: flex;
     justify-content: center;
+	flex-wrap: wrap;
 }
 
 footer .info_social_btn ul li {

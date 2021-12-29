@@ -930,6 +930,9 @@
 	footer .info_corpus .info {
 		font-size: 14px;
 	}
+	footer .info_social_btn ul li {
+		margin-bottom: 8px;
+	}
 }
 
 @media screen and (max-width:700px) {
@@ -1336,6 +1339,9 @@
 	.dop-info {
 		margin-top: 40px;
 	}
+	.btn_allnews {
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width:476px) {
@@ -1434,24 +1440,6 @@
         width: 300px!important;
         float: left
     }
-    .close1 {
-        font-size: 10px
-    }
-    .close2 {
-        font-size: 10px
-    }
-    .close3 {
-        font-size: 10px
-    }
-    .close4 {
-        font-size: 10px
-    }
-    .close5 {
-        font-size: 10px
-    }
-    .close6 {
-        font-size: 10px
-    }
     .main-event-img {
         width: 100%
     }
@@ -1476,4 +1464,33 @@
     .p1 {
         font-size: 12px
     }
+	.btnWidthAll {
+		margin-top: 23%;
+	}
+	.slick-dots {
+		bottom: -90px!important;
+	}
+	.slick-dots {
+		display: none!important;
+	}
+	.slick-prev {
+		left: 22%!important;
+	}
+	.slick-next {
+		right: 22%!important;
+	}
+	.version img {
+		display: none;
+	}
+}
+
+@media screen and (max-width:355px) {
+	.fast-main {
+		grid-template-rows: repeat(5, 150px);
+		grid-template-columns: repeat(4, 60px);
+	}
+	.fast-block {
+		margin: 0;
+		margin-bottom: 10px;
+	}
 }
