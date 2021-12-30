@@ -216,7 +216,8 @@
 	.dop-info1.container, .visitor.container {
 		flex-direction: row;
 	}
-	.version span {
+	.version span,
+	h1 {
 		font-size: 22px;
 	}
 	.visitor .img {
@@ -490,6 +491,9 @@
 		width: 64px;
 		margin-right: 22px;
 	}
+	.slick-dots {
+		bottom: -24%!important;
+	}
 }
 
 @media (min-width:992px) {
@@ -555,6 +559,22 @@
 	.auth .auth_soc {
 		margin-top: 28px;
 	}
+	.specialty .block_spec {
+		padding: 32px 16px;
+	}
+	.specialty .block_spec .block_first .img {
+		width: 55px;
+		height: 55px;
+	}
+	.specialty .block_spec .block_first .img img {
+		height: 100%;
+	}
+	.specialty .block_spec {
+		width: 345px;
+	}
+	.slick-dots {
+		bottom: -25%!important;
+	}
 }
 
 @media screen and (max-width:850px) {
@@ -598,6 +618,9 @@
 	.slick-prev {
 		left: 37%!important;
 	}
+	.slick-dots {
+		bottom: -28%!important;
+	}
 	h2 {
 		font-size: 16px;
 	}
@@ -621,6 +644,18 @@
 	.header_d {
 		justify-content: flex-start;
 		padding: 5px 16px;
+	}
+	.specialty .block_spec {
+		width: 325px;
+	}
+	.specialty .block_spec .block_second a {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width:805px) {
+	.specialty .block_spec {
+		width: 300px;
 	}
 }
 
@@ -1021,6 +1056,13 @@
 	}
 }
 
+@media screen and (max-width:682px) {
+	.specialty .block_spec {
+		width: 280px;
+		padding: 24px 10px
+	}
+}
+
 @media screen and (max-width:640px) {
     .codrops-header h1 {
         font-size: 2.5em
@@ -1047,7 +1089,8 @@
 	footer .logo_footer img {
 		max-width: 130px;
 	}
-	.btn_allnews {
+	.btn_allnews,
+	.specialty .block_spec .block_second a {
 		padding: 16px 24px;
 	}
 	.corpus .frame-1 {
@@ -1076,6 +1119,10 @@
 	}
 	.navigation .ed_resource-main .ed_resource-block .img {
 		height: 166px;
+	}
+	.specialty .block_spec {
+		width: 100%;
+		margin: 0 0 16px 0;
 	}
 }
 
@@ -1163,7 +1210,8 @@
 	.info_com,
 	.info_com p,
 	.vakan,
-	.prof p {
+	.prof p,
+	.spec span {
 		font-size: 14px;
 	}
 	.nav__content .auth {
@@ -1473,12 +1521,13 @@
 	.dop-info {
 		margin-top: 40px;
 	}
-	.btn_allnews {
+	.btn_allnews,
+	.specialty .block_spec .block_second a {
 		font-size: 14px;
 	}
 	.nav__content .auth,
 	.nav__list {
-		padding: 0 50px;
+		padding: 0 50px 0 40px;
 	}
 	.nav__content .auth .auth-main {
 		width: 100%;
@@ -1506,6 +1555,12 @@
 		display: block;
 		width: 100%;
 		overflow-x: auto;
+	}
+	.specialty .block_spec div {
+		margin-top: 18px;
+	}
+	.specialty .block_spec h1 {
+		margin: 8px 0;
 	}
 }
 
@@ -1551,14 +1606,15 @@
 	.ed_resource-main .ed_resource-block .img {
 		height: 138px;
 	}
+	.specialty .block_spec .block_first .img {
+		width: 50px;
+		height: 50px;
+	}
 }
 
 @media screen and (max-width:375px) {
     .header .sidebar-menu ul li a {
         font-size: 15px
-    }
-    .sidebar-menu ul {
-        padding-left: 20px
     }
     .window .header ul.m-menu li.menu-item a {
         font-size: 17px
@@ -1673,6 +1729,10 @@
 	}
 	.navigation .ed_resource-main .ed_resource-block .img {
 		height: 190px;
+	}
+	.specialty .block_spec .block_first .img {
+		width: 40px;
+		height: 40px;
 	}
 }
 

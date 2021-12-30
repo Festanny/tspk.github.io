@@ -5583,7 +5583,7 @@ tr {
 	border-radius: 6px;
 	text-align: center;
 	padding: 48px 32px;
-	margin-bottom: 30px;
+	margin: 0 8px 30px 8px;
 }
 
 .specialty .block_spec div {
