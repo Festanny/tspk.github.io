@@ -1314,7 +1314,7 @@ section:last-of-type {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: var(--font-color);
 }
 
 .rez {
@@ -3530,7 +3530,7 @@ progress::-moz-progress-bar {
     width: 100%;
     text-decoration: none;
     position: relative;
-    padding: 8px 30px 8px 20px
+    padding: 10px 30px 10px 20px
 }
 
 .sidebar-wrapper .sidebar-menu ul li a i {
@@ -3563,7 +3563,7 @@ progress::-moz-progress-bar {
     background: 0 0;
     position: absolute;
     right: 15px;
-    top: 17px;
+    top: 16px;
     background-image: url('../image/arrow.svg');
     width: 7px;
     height: 11px;
@@ -4163,7 +4163,7 @@ button:focus {
     cursor: pointer;
     display: none;
     position: fixed;
-    z-index: 999;
+    z-index: 9999;
     background: #366294;
     border-radius: 50%;
     color: #fff;
@@ -4175,6 +4175,7 @@ button:focus {
     justify-content: center;
     right: 137px;
     bottom: 10px;
+	z-index: 100;
 }
 
 .naverh1 {
@@ -4653,7 +4654,6 @@ button:focus {
 .fast-main {
     display: grid;
     margin: 0 auto;
-    margin-top: 20px;
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(2, 250px);
     /* grid-auto-rows: 50px; */
@@ -4814,10 +4814,6 @@ button:focus {
     background-image: url('../image/videoTSPK.png');
 }
 
-.news-main {
-    margin-top: 30px;
-}
-
 .slick-slide {
     margin: 0px 20px;
 }
@@ -4962,10 +4958,6 @@ button:focus {
     margin-top: 24px;
 }
 
-.maps-1 {
-    margin-top: 30px;
-}
-
 .corpus h1 {
     margin: 0;
 }
@@ -5011,6 +5003,7 @@ button:focus {
     text-transform: uppercase;
     font-weight: bold;
     color: var(--font-color-fast);
+	text-align: center;
 }
 
 .form_block .inputRel {
@@ -5350,7 +5343,7 @@ footer .info_corpus .info span {
 
 .header_d{
     background: #4D6A81;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -5491,7 +5484,9 @@ tr {
 .news-all .news-block {
     width: 280px;
     margin-bottom: 30px;
-    height: 310px!important;
+	margin-right: 8px;
+	margin-left: 8px;
+	z-index: 0;
 }
 
 .news-all .news-block .img {
