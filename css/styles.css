@@ -5287,7 +5287,7 @@ footer .info_corpus .info span {
 	width: 250px;
 	border: 1px solid var(--border-block-a);
 	border-radius: 6px;
-	margin-bottom: 30px;
+	margin: 0 8px 30px 8px;
 }
 
 .ed_resource-main .ed_resource-block h2 {
@@ -5335,7 +5335,7 @@ footer .info_corpus .info span {
 }
 
 .navigation .container {
-	width: 1090px;
+	width: 100%;
 }
 
 .header_d{
