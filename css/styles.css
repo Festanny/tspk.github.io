@@ -152,20 +152,17 @@ table {
 }
 
 input:checked+.slider {
-    /* border: 2px solid#fff */
     background-image: url('../image/moon.svg');
     background-repeat: no-repeat;
     background-size: 15px;
     background-position: 5px center;
+	transition: .4s;
 }
 
 input:checked+.slider:before {
     transform: translateX(26px);
     background-color: #fff;
-    /* background-image: url('../image/wb_sunny.png');
-    background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: center; */
+	transition: .4s;
 }
 
 .slider.round {
