@@ -1162,7 +1162,8 @@
 	.learn-more .button-text,
 	.info_com,
 	.info_com p,
-	.vakan {
+	.vakan,
+	.prof p {
 		font-size: 14px;
 	}
 	.nav__content .auth {
@@ -1500,7 +1501,8 @@
 	.navigation .ed_resource-main .ed_resource-block .img {
 		height: 254px;
 	}
-	.job table {
+	.job table,
+	.prof table {
 		display: block;
 		width: 100%;
 		overflow-x: auto;

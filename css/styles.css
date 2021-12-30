@@ -5371,6 +5371,7 @@ footer .info_corpus .info span {
 
 main .title{
     margin-bottom: 20px;
+	padding: 0 8px;
 }
 
 .vakan tr {
@@ -5394,7 +5395,8 @@ tr {
     width: 40%;
 }
 
-.vakan td{
+.vakan td,
+.prof table td {
     padding: 4px 15px;
     vertical-align: middle;
 }
