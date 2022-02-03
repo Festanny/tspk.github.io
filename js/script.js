@@ -42,7 +42,7 @@ inputStart[1].onfocus = function() {
 	labelFocus[1].classList = "labelFocus";
 };
 inputStart[1].onblur = function() {
-    if (inputStart[0].value == "") {
+    if (inputStart[1].value == "") {
         labelFocus[1].classList = "inputV";
     }
 };
